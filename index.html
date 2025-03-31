@@ -157,14 +157,14 @@
       ICLR 2025, also at NeurIPS 2024 Workshop RBFM<br>
       </p>
 
-      <div class="paper" id="DeGF">
+      <div class="paper" id="degf">
         <a href="https://zhangce01.github.io/DeGF/">website</a> |
-        <a href="javascript:toggleblock('DeGF_abs')">abstract</a> |
-        <a shape="rect" href="javascript:togglebib('DeGF')" class="togglebib">bibtex</a> |
+        <a href="javascript:toggleblock('degf_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('degf')" class="togglebib">bibtex</a> |
         <a href="https://arxiv.org/abs/2502.06130">arXiv</a> |
         <a href="https://github.com/zhangce01/DeGF">code</a> 
         
-        <p align="justify"> <i id="DeGF_abs">While recent Large Vision-Language Models (LVLMs) have shown remarkable performance in multi-modal tasks, they are prone to generating hallucinatory text responses that do not align with the given visual input, which restricts their practical applicability in real-world scenarios. In this work, inspired by the observation that the text-to-image generation process is the inverse of image-conditioned response generation in LVLMs, we explore the potential of leveraging text-to-image generative models to assist in mitigating hallucinations in LVLMs. We discover that generative models can offer valuable self-feedback for mitigating hallucinations at both the response and token levels. Building on this insight, we introduce self-correcting Decoding with Generative Feedback (DeGF), a novel training-free algorithm that incorporates generative feedback into the decoding process to effectively mitigate hallucinations. Specifically, DeGF generates an image from the initial response produced by LVLMs, which acts as an auxiliary visual reference and provides self-feedback to verify and, if necessary, correct the initial response. Extensive experimental results validate the effectiveness of our approach in mitigating diverse types of hallucinations, consistently surpassing state-of-the-art methods across two evaluated LVLMs and five benchmarks.</i></p>
+        <p align="justify"> <i id="degf_abs">While recent Large Vision-Language Models (LVLMs) have shown remarkable performance in multi-modal tasks, they are prone to generating hallucinatory text responses that do not align with the given visual input, which restricts their practical applicability in real-world scenarios. In this work, inspired by the observation that the text-to-image generation process is the inverse of image-conditioned response generation in LVLMs, we explore the potential of leveraging text-to-image generative models to assist in mitigating hallucinations in LVLMs. We discover that generative models can offer valuable self-feedback for mitigating hallucinations at both the response and token levels. Building on this insight, we introduce self-correcting Decoding with Generative Feedback (DeGF), a novel training-free algorithm that incorporates generative feedback into the decoding process to effectively mitigate hallucinations. Specifically, DeGF generates an image from the initial response produced by LVLMs, which acts as an auxiliary visual reference and provides self-feedback to verify and, if necessary, correct the initial response. Extensive experimental results validate the effectiveness of our approach in mitigating diverse types of hallucinations, consistently surpassing state-of-the-art methods across two evaluated LVLMs and five benchmarks.</i></p>
 
         <pre xml:space="preserve">
           @inproceedings{zhang2025selfcorrecting,
@@ -185,20 +185,20 @@
       </a>
     </td>
     <td width="60%" valign="top">
-      <p><a href="https://github.com/SilongYong/OMG" id="OMG">
+      <p><a href="https://github.com/SilongYong/OMG" id="omg">
       <heading>OMG: Opacity Matters in Material Modeling with Gaussian Splatting</heading></a><br>
       Silong Yong, Venkata Nagarjun Pudureddiyur Manivannan, Bernhard Kerbl, <b>Zifu Wan</b>, Simon Stepputtis, Katia P. Sycara, Yaqi Xie<br>
       ICLR 2025<br>
       </p>
 
-      <div class="paper" id="OMG">
+      <div class="paper" id="omg">
         <a href="https://openreview.net/forum?id=tTBXePRKSx&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)">pdf</a> |
-        <a href="javascript:toggleblock('OMG_abs')">abstract</a> |
-        <a shape="rect" href="javascript:togglebib('OMG')" class="togglebib">bibtex</a> |
+        <a href="javascript:toggleblock('omg_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('omg')" class="togglebib">bibtex</a> |
         <a href="https://openreview.net/pdf?id=oeP6OL7ouB">OpenReview</a> |
         <a href="https://github.com/SilongYong/OMG">code</a> 
         
-        <p align="justify"> <i id="OMG_abs">Decomposing geometry, materials and lighting from a set of images, namely inverse rendering, has been a long-standing problem in computer vision and graphics. Recent advances in neural rendering enable photo-realistic and plausible inverse rendering results. The emergence of 3D Gaussian Splatting has boosted it to the next level by showing real-time rendering potentials. An intuitive finding is that the models used for inverse rendering do not take into account the dependency of opacity w.r.t. material properties, namely cross section, as suggested by optics. Therefore, we develop a novel approach that adds this dependency to the modeling itself. Inspired by radiative transfer, we augment the opacity term by introducing a neural network that takes as input material properties to provide modeling of cross section and a physically correct activation function. The gradients for material properties are therefore not only from color but also from opacity, facilitating a constraint for their optimization. Therefore, the proposed method incorporates more accurate physical properties compared to previous works. We implement our method into 3 different baselines that use Gaussian Splatting for inverse rendering and achieve significant improvements universally in terms of novel view synthesis and material modeling.</i></p>
+        <p align="justify"> <i id="omg_abs">Decomposing geometry, materials and lighting from a set of images, namely inverse rendering, has been a long-standing problem in computer vision and graphics. Recent advances in neural rendering enable photo-realistic and plausible inverse rendering results. The emergence of 3D Gaussian Splatting has boosted it to the next level by showing real-time rendering potentials. An intuitive finding is that the models used for inverse rendering do not take into account the dependency of opacity w.r.t. material properties, namely cross section, as suggested by optics. Therefore, we develop a novel approach that adds this dependency to the modeling itself. Inspired by radiative transfer, we augment the opacity term by introducing a neural network that takes as input material properties to provide modeling of cross section and a physically correct activation function. The gradients for material properties are therefore not only from color but also from opacity, facilitating a constraint for their optimization. Therefore, the proposed method incorporates more accurate physical properties compared to previous works. We implement our method into 3 different baselines that use Gaussian Splatting for inverse rendering and achieve significant improvements universally in terms of novel view synthesis and material modeling.</i></p>
 
         <pre xml:space="preserve">
           @article{yong2025omg,
@@ -457,10 +457,10 @@ hideallbibs();
   hideblock('ONLY_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-  hideblock('DeGF_abs');
+  hideblock('degf_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-  hideblock('OMG_abs');
+  hideblock('omg_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
   hideblock('sigma_abs');
