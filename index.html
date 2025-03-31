@@ -126,7 +126,7 @@
       <p><a href="https://zifuwan.github.io" id="ONLY">
       <heading>One Layer (ONLY) is Enough to Boost Contrastive Decoding for Mitigating Hallucinations in Large Vision-Language Models</heading></a><br>
       <b>Zifu Wan*</b>, Ce Zhang*, Silong Yong, Martin Q. Ma, Simon Stepputtis, Louis-Philippe Morency, Deva Ramanan, Katia Sycara, Yaqi Xie<br>
-      In Submission<br>
+      Accepted by ICLR 2025 Workshop UFM; Also in Submission<br>
       </p>
 
       <div class="paper" id="ONLY">
@@ -146,28 +146,67 @@
   </tr>
 
   <tr>
-    <td width="40%" valign="top" align="center"><a href="https://zifuwan.github.io">
+    <td width="40%" valign="top" align="center"><a href="https://zhangce01.github.io/DeGF/">
       <img src="images/DeGF/DeGF.png" alt="sym" width="90%" style="padding-top:0px; padding-bottom:0px; border-radius:5px; height: auto;">
       </a>
     </td>
     <td width="60%" valign="top">
-      <p><a href="https://zifuwan.github.io" id="DeGF">
+      <p><a href="https://zhangce01.github.io/DeGF/" id="DeGF">
       <heading>Self-Correcting Decoding with Generative Feedback for Mitigating Hallucinations in Large Vision-Language Models</heading></a><br>
       Ce Zhang*, <b>Zifu Wan*</b>, Zhehan Kan, Martin Ma, Simon Stepputtis, Deva Ramanan, Russ Salakhutdinov, Louis-Philippe Morency, Katia Sycara, Yaqi Xie<br>
       ICLR 2025, also at NeurIPS 2024 Workshop RBFM<br>
       </p>
 
       <div class="paper" id="DeGF">
-        <a href="https://openreview.net/forum?id=tTBXePRKSx&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)">pdf</a> |
-        <a href="javascript:toggleblock('DeGF_abs')">abstract</a> 
-        <!-- <a shape="rect" href="javascript:togglebib('sigma')" class="togglebib">bibtex</a> | -->
-        <!-- <a href="https://arxiv.org/abs/2404.04256">arXiv</a> | -->
-        <!-- <a href="https://github.com/zifuwan/Sigma">code</a> | -->
+        <a href="https://zhangce01.github.io/DeGF/">website</a> |
+        <a href="javascript:toggleblock('DeGF_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('DeGF')" class="togglebib">bibtex</a> |
+        <a href="https://arxiv.org/abs/2502.06130">arXiv</a> |
+        <a href="https://github.com/zhangce01/DeGF">code</a> 
         
         <p align="justify"> <i id="DeGF_abs">While recent Large Vision-Language Models (LVLMs) have shown remarkable performance in multi-modal tasks, they are prone to generating hallucinatory text responses that do not align with the given visual input, which restricts their practical applicability in real-world scenarios. In this work, inspired by the observation that the text-to-image generation process is the inverse of image-conditioned response generation in LVLMs, we explore the potential of leveraging text-to-image generative models to assist in mitigating hallucinations in LVLMs. We discover that generative models can offer valuable self-feedback for mitigating hallucinations at both the response and token levels. Building on this insight, we introduce self-correcting Decoding with Generative Feedback (DeGF), a novel training-free algorithm that incorporates generative feedback into the decoding process to effectively mitigate hallucinations. Specifically, DeGF generates an image from the initial response produced by LVLMs, which acts as an auxiliary visual reference and provides self-feedback to verify and, if necessary, correct the initial response. Extensive experimental results validate the effectiveness of our approach in mitigating diverse types of hallucinations, consistently surpassing state-of-the-art methods across two evaluated LVLMs and five benchmarks.</i></p>
 
         <pre xml:space="preserve">
-          coming soon
+          @inproceedings{zhang2025selfcorrecting,
+            title={Self-Correcting Decoding with Generative Feedback for Mitigating Hallucinations in Large Vision-Language Models},
+            author={Ce Zhang and Zifu Wan and Zhehan Kan and Martin Q. Ma and Simon Stepputtis and Deva Ramanan and Russ Salakhutdinov and Louis-Philippe Morency and Katia P. Sycara and Yaqi Xie},
+            booktitle={The Thirteenth International Conference on Learning Representations},
+            year={2025},
+            url={https://openreview.net/forum?id=tTBXePRKSx}
+          }
+        </pre>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="40%" valign="top" align="center"><a href="https://github.com/SilongYong/OMG">
+      <img src="images/OMG/OMG.png" alt="sym" width="90%" style="padding-top:0px; padding-bottom:0px; border-radius:5px; height: auto;">
+      </a>
+    </td>
+    <td width="60%" valign="top">
+      <p><a href="https://github.com/SilongYong/OMG" id="OMG">
+      <heading>OMG: Opacity Matters in Material Modeling with Gaussian Splatting</heading></a><br>
+      Silong Yong, Venkata Nagarjun Pudureddiyur Manivannan, Bernhard Kerbl, <b>Zifu Wan</b>, Simon Stepputtis, Katia P. Sycara, Yaqi Xie<br>
+      ICLR 2025<br>
+      </p>
+
+      <div class="paper" id="OMG">
+        <a href="https://openreview.net/forum?id=tTBXePRKSx&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)">pdf</a> |
+        <a href="javascript:toggleblock('OMG_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('OMG')" class="togglebib">bibtex</a> |
+        <a href="https://openreview.net/pdf?id=oeP6OL7ouB">OpenReview</a> |
+        <a href="https://github.com/SilongYong/OMG">code</a> 
+        
+        <p align="justify"> <i id="OMG_abs">Decomposing geometry, materials and lighting from a set of images, namely inverse rendering, has been a long-standing problem in computer vision and graphics. Recent advances in neural rendering enable photo-realistic and plausible inverse rendering results. The emergence of 3D Gaussian Splatting has boosted it to the next level by showing real-time rendering potentials. An intuitive finding is that the models used for inverse rendering do not take into account the dependency of opacity w.r.t. material properties, namely cross section, as suggested by optics. Therefore, we develop a novel approach that adds this dependency to the modeling itself. Inspired by radiative transfer, we augment the opacity term by introducing a neural network that takes as input material properties to provide modeling of cross section and a physically correct activation function. The gradients for material properties are therefore not only from color but also from opacity, facilitating a constraint for their optimization. Therefore, the proposed method incorporates more accurate physical properties compared to previous works. We implement our method into 3 different baselines that use Gaussian Splatting for inverse rendering and achieve significant improvements universally in terms of novel view synthesis and material modeling.</i></p>
+
+        <pre xml:space="preserve">
+          @article{yong2025omg,
+            title={OMG: Opacity Matters in Material Modeling with Gaussian Splatting},
+            author={Yong, Silong and Manivannan, Venkata Nagarjun Pudureddiyur and Kerbl, Bernhard and Wan, Zifu and Stepputtis, Simon and Sycara, Katia and Xie, Yaqi},
+            journal={arXiv preprint arXiv:2502.10988},
+            year={2025}
+          }
         </pre>
       </div>
     </td>
@@ -419,6 +458,9 @@ hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
   hideblock('DeGF_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+  hideblock('OMG_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
   hideblock('sigma_abs');
