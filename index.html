@@ -129,7 +129,7 @@
       ICCV 2025, also at ICLR 2025 Workshop UFM<br>
       </p>
 
-      <div class="paper" id="ONLY">
+      <div class="paper" id="only">
         <a href="https://zifuwan.github.io/ONLY/">website</a> |
         <a href="javascript:toggleblock('only_abs')">abstract</a> |
         <a shape="rect" href="javascript:togglebib('only')" class="togglebib">bibtex</a> |
@@ -139,11 +139,13 @@
         <p align="justify"> <i id="only_abs">Recent Large Vision-Language Models (LVLMs) have introduced a new paradigm for understanding and reasoning about image input through textual responses. Although they have achieved remarkable performance across a range of multi-modal tasks, they face the persistent challenge of hallucination, which introduces practical weaknesses and raises concerns about their reliable deployment in real-world applications. Existing work has explored contrastive decoding approaches to mitigate this issue, where the output of the original LVLM is compared and contrasted with that of a perturbed version. However, these methods require two or more queries that slow down LVLM response generation, making them less suitable for real-time applications. To overcome this limitation, we propose ONLY, a training-free decoding approach that requires only a single query and a one-layer intervention during decoding, enabling efficient real-time deployment. Specifically, we enhance textual outputs by selectively amplifying crucial textual information using a text-to-visual entropy ratio for each token. Extensive experimental results demonstrate that our ONLY approach consistently outperforms state-of-the-art methods across various benchmarks while requiring minimal implementation effort and computational cost.</i></p>
 
         <pre xml:space="preserve">
-          @article{wan2025only,
-            title={ONLY: One-Layer Intervention Sufficiently Mitigates Hallucinations in Large Vision-Language Models},
-            author={Wan, Zifu and Zhang, Ce and Yong, Silong and Ma, Martin Q and Stepputtis, Simon and Morency, Louis-Philippe and Ramanan, Deva and Sycara, Katia and Xie, Yaqi},
-            journal={arXiv preprint arXiv:2507.00898},
-            year={2025}
+          @InProceedings{Wan_2025_ICCV,
+            author    = {Wan, Zifu and Zhang, Ce and Yong, Silong and Ma, Martin Q. and Stepputtis, Simon and Morency, Louis-Philippe and Ramanan, Deva and Sycara, Katia and Xie, Yaqi},
+            title     = {ONLY: One-Layer Intervention Sufficiently Mitigates Hallucinations in Large Vision-Language Models},
+            booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+            month     = {October},
+            year      = {2025},
+            pages     = {3225-3234}
           }
         </pre>
       </div>
